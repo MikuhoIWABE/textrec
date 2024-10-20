@@ -1,0 +1,88 @@
+<%= form_for(@perfume, class: 'form-horizontal', role: 'form') do |f| %>
+            <div class="container-sindan">
+                <div class="row">
+                  <div class="Qの箱">  
+                   <div class="bigcol12">
+                    <div class="col-12">
+                        <p>Question1. インプットをメインに進めていきたい</p>
+                    </div>
+                 </div> 
+                 <div class="bigcol"> 
+                    <div class="col-6">
+                        <p><%= f.check_box :question, {multiple: true}, "1", nil %>はい</p>
+                    </div>
+                    <div class="col-6">
+                        <p><%= f.check_box :question, {multiple: true}, "0", nil %>いいえ</p>
+                    </div>
+                 </div> 
+                </div> 
+
+                  <div class="Qの箱">  
+                   <div class="bigcol12">
+                    <div class="col-12">
+                        <p>Question2. 解説は丁寧でないと困る</p>
+                    </div>
+                   </div>                     
+                 <div class="bigcol"> 
+                    <div class="col-6">
+                        <p><%= f.check_box :question, {multiple: true}, "1", nil %>はい</p>
+                    </div>
+                    <div class="col-6">
+                        <p><%= f.check_box :question, {multiple: true}, "0", nil %>いいえ</p>
+                    </div>
+                 </div> 
+         </div>
+
+                  <div class="Qの箱">  
+                   <div class="bigcol12">
+                    <div class="col-12">
+                        <p>Question3. 文法文法した説明に抵抗感がない</p>
+                    </div>
+                   </div>                     
+                 <div class="bigcol">  
+                    <div class="col-6">
+                        <p><%= f.check_box :question, {multiple: true}, "1", nil %>はい</p>
+                    </div>
+                    <div class="col-6">
+                        <p><%= f.check_box :question, {multiple: true}, "0", nil %>いいえ</p>
+                    </div>
+                 </div> 
+         </div>
+
+                  <div class="Qの箱">  
+                   <div class="bigcol12">
+                    <div class="col-12">
+                        <p>Question4. 短期集中型で終わらせたい</p>
+                    </div>
+                   </div>                     
+                 <div class="bigcol"> 
+                    <div class="col-6">
+                        <p><%= f.check_box :question, {multiple: true}, "1", nil %>はい</p>
+                    </div>
+                    <div class="col-6">
+                        <p><%= f.check_box :question, {multiple: true}, "0", nil %>いいえ</p>
+                    </div>
+                 </div> 
+         </div>
+
+                  <div class="Qの箱">  
+                   <div class="bigcol12">
+                     <div class="col-12">
+                            <p>Question5. 人と違うことをするのが好きだ</p>
+                     </div>
+                    </div>
+                 <div class="bigcol"> 
+                    <div class="col-6">
+                        <p><%= f.check_box :question, {multiple: true}, "1", nil %>はい</p>
+                    </div>
+                    <div class="col-6">
+                        <p><%= f.check_box :question, {multiple: true}, "0", nil %>いいえ</p>
+                    </div>
+                </div>
+            </div>
+         </div>
+            <div class="buttonbox">
+                <%= f.submit "診断結果へ！" ,class:"sindanbotan"%>
+              </div>
+        </div>
+<% end %>

@@ -1,0 +1,72 @@
+// Place all the styles related to the hello controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+.container-sindan {
+
+}
+ .row {
+   align-items: center;
+   justify-content: center;
+   width: 1400px;
+   height: 700px;  
+   font-size: 32px;
+ }
+
+ .bigcol12 {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 1400px;
+   height: 150px;  
+  }
+ 
+ .col-12 {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 1400px;
+   height: 150px;  
+ }
+
+ .bigcol {
+    display: flex;
+    margin-bottom: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+ }
+
+ .col-6 {
+    justify-content: center; 
+    margin-bottom: 50px;
+    align-items: center;
+    flex-direction: row
+ }
+
+ .buttonbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1400px;
+    height: 1800px;  
+ }
+
+ .sindanbotan {
+        display: inline-block;
+        text-decoration: none;
+        color: #453c21;
+        width: 120px;
+        height: 120px;
+        line-height: 120px;
+        border-radius: 50%;
+        border: double 4px #453c21;
+        text-align: center;
+        overflow: hidden;
+        transition: .6s;
+ }
+
+ .sindanbotan:hover {
+    -webkit-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }

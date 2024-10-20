@@ -1,0 +1,518 @@
+// Place all the styles related to the perfumes controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+
+
+.解釈 {
+    justify-content: center; 
+    margin-bottom: 50px;
+    align-items: center;
+    display: flex;
+    margin-left: 10px;
+  }
+  
+  .start {
+    width: 360px;
+    height: 360px;
+    margin-right: 10px;
+    justify-content: space-between;
+    background-color: #9a9a8d;
+    font-weight: bold;
+    display: flex-end;
+  }
+ 
+  .genre-name {
+    text-align: center; 
+    line-height: 360px; 
+    font-size: 26px;
+    font-weight: bold;
+    color: #fff;
+    background-size: cover;
+  }
+  
+  .perfume {
+    background-image: url("英文解釈1ststage.jpg");
+  }
+
+  .chat {
+    background-image: url("英文解釈2ndstage.jpg");
+  }
+
+  .sentence {
+    background-image: url("英文解釈3rdstage.jpg");
+  }
+
+  .interpretation {
+    background-image: url("英文解釈4thstage.jpg");
+  }
+
+.container-sindan {
+
+}
+ .row {
+   align-items: center;
+   justify-content: center;
+   width: 1400px;
+   height: 700px;  
+   font-size: 32px;
+ }
+
+ .Qの箱{
+  width: 1300px;
+  height: 250px;
+  margin: 30px 0;
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-bottom: 150px;
+  background: repeating-linear-gradient(-45deg, #f4f2d3 0, #ffecc1 2px, #FFF 4px, #ffffff 6px);
+ }
+
+ .bigcol12 {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 1300px;
+   height: 500px;
+  }
+ 
+ .col-12 {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 1300px;
+   height: 150px;
+   margin-right: 100px;  
+   position: relative;
+   padding: 0.6em;
+   background: #f8f8f8;
+ }
+
+.col-12:after {
+  position: absolute;
+  content: '';
+  top: 100%;
+  left: 30px;
+  border: 15px solid transparent;
+  border-top: 15px solid #e0edff;
+  width: 0;
+  height: 0;
+}
+
+.col-12 {
+  position: relative;
+  padding: 0.25em 1em;
+  border: solid 2px black;
+  border-radius: 3px 0 3px 0;
+}
+
+.col-12:before, .col-12:after {
+  content: '';
+  position: absolute;
+  width:10px;
+  height: 10px;
+  border: solid 2px black;
+  border-radius: 50%;
+}
+
+.col-12:after {
+  top:-12px;
+  left:-12px;
+}
+.col-12:before {
+  bottom:-12px;
+  right:-12px;
+}
+
+ .bigcol {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+ }
+
+ .col-6 {
+    justify-content: space-around; 
+    margin-bottom: 50px;
+    align-items: center;
+    flex-direction: row;
+    transform: scale(2.0);
+    font-size: 20px;
+ }
+
+ .buttonbox {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1400px;
+    height: 3000px;  
+ }
+
+ .buttonbox2 {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1400px;
+  height: 4000px;  
+}
+
+ .sindanbotan {
+        display: inline-block;
+        text-decoration: none;
+        color: #ffdf80;
+        width: 120px;
+        height: 120px;
+        line-height: 120px;
+        border-radius: 50%;
+        border: double 4px #261e06;
+        text-align: center;
+        overflow: hidden;
+        transition: .6s;
+ }
+
+ .sindanbotan:hover {
+    -webkit-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
+
+.単語 {
+    display: flex;  
+    align-items: center;    
+    justify-content: space-around; 
+    margin-bottom: 50px;
+    margin-top: 0px;
+    margin-left: 40px;
+    width: 1200px;
+  }
+
+  .start {
+    width: 360px;
+    height: 360px;
+    margin-right: 10px;
+    justify-content: space-between;
+    background-color: #9a9a8d;
+    font-weight: bold;
+    display: flex-end;
+  }
+ 
+  .genre-name {
+    text-align: center; 
+    line-height: 360px; 
+    font-size: 26px;
+    font-weight: bold;
+    color: #fff;
+    background-size: cover;
+  }
+
+  .word {
+    background-image: url("英単語1ststage.jpg");
+  }
+
+  .language {
+    background-image: url("英単語2ndstage.jpg");
+  }
+
+  .term {
+    background-image: url("英単語3rdstage.jpg");
+  }
+
+.文法 {
+    justify-content: center; 
+    margin-bottom: 50px;
+    align-items: center;
+    display: flex;
+    width: 720x;    
+  }
+
+  .start {
+    width: 720x;
+    height: 360px;
+    margin-right: 10px;
+    background-color: #9a9a8d;
+    font-weight: bold;
+    display: flex-end;
+    font-size: 26px;
+  }
+ 
+  .genre-name {
+    text-align: center; 
+    line-height: 3600px; 
+    font-size: 26px;
+    font-weight: bold;
+    color: #fff;
+    background-size: cover;
+  }
+
+  .grammar {
+    background-image: url("英文法.jpg");
+  }
+
+.長文{
+    justify-content: space-around; 
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 180px;
+    width: 950px;
+    align-items: center;
+    display: flex;
+    color: #fff; 
+  }  
+
+  .start {
+    width: 360px;
+    height: 360px;
+    margin-right: 10px;
+    justify-content: space-between;
+    background-color: #9a9a8d;
+    font-weight: bold;
+    display: flex-end;
+  }
+ 
+  .genre-name {
+    text-align: center; 
+    line-height: 360px; 
+    font-size: 26px;
+    font-weight: bold;
+    color: #fff;
+    background-size: cover;
+  }
+
+  .text {
+    background-image: url("一般長文.jpg");
+  }    
+
+  .common {
+    background-image: url("共通テスト.jpg");
+  }
+
+  .単語の箱 {
+    height: 880px;
+    margin: 30px 0;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: repeating-linear-gradient(-45deg, #f4f2d3 0, #ffecc1 2px, #FFF 4px, #FFF 6px);
+  }
+
+.単語の説明 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 30px; 
+    margin-bottom: 0px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.861);
+  }
+
+  .単語の説明b {
+    justify-content: center; 
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 250px;
+    font-size: 36px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.861);
+  }
+
+  .box30 {
+    margin: 2em 0;
+    background: #fffef3;
+    box-shadow: 0 2px 4px rgb(0, 0, 0);
+    width: 300px;
+    height: 150px;
+   }  
+  .box30 .box-title {
+    font-size: 1.2em;
+    background: #c08404a4;
+    padding: 4px;
+    text-align: center;
+    color: #FFF;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+  }
+  .box30 p {
+    padding: 15px 20px;
+    margin: 0;
+  }
+    
+   .凡例box {
+   justify-content: space-between; 
+   align-items: center;
+   display: flex;
+   width: 1100px;
+   margin-left: 90px;
+  }
+
+
+.文法の説明 {
+    justify-content: center; 
+    margin-bottom: 20px;
+    align-items: center;
+    display: flex;
+    font-size: 26px;
+    font-weight: bold;
+  }
+
+  .文法の説明b {
+    justify-content: center; 
+    align-items: center;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    font-size: 36px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.861);
+  }  
+
+  .文法の箱 {
+    height: 680px;
+    margin: 30px 0;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    background: repeating-linear-gradient(-45deg, #f4f2d3 0, #ffecc1 2px, #FFF 4px, #FFF 6px);
+  }
+
+.解釈の説明 {
+    justify-content: center;
+    align-items: center; 
+    margin-bottom: 20px;
+    display: flex;
+    font-size: 26px;
+    font-weight: bold;
+  }
+
+  .解釈の説明b {
+    justify-content: center; 
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    font-size: 36px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.861);
+  }
+
+  .解釈の箱 {
+    height: 910px;
+    margin: 30px 0;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    background: repeating-linear-gradient(-45deg, #f4f2d3 0, #ffecc1 2px, #FFF 4px, #FFF 6px);
+  }
+
+  .box30b {
+    margin: 2em 0;
+    background: #fffef3;
+    box-shadow: 0 2px 4px rgb(0, 0, 0);
+    width: 280px;
+    height: 170px;
+   }  
+  .box30b .boxb-title {
+    font-size: 1.2em;
+    background: #c08404a4;
+    padding: 4px;
+    text-align: center;
+    color: #FFF;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+  }
+  .box30b p {
+    padding: 15px 20px;
+    margin: 0;
+  }
+  
+  .凡例boxb {
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    width: 1250px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+   }
+
+  
+.長文の説明 {
+    justify-content: center; 
+    margin-bottom: 20px;
+    align-items: center;
+    display: flex;
+    font-size: 26px;
+    font-weight: bold;
+  }
+
+  .長文の説明b {
+    justify-content: center; 
+    align-items: center;    
+    margin-bottom: 20px;
+    margin-left: 220px;
+    font-size: 36px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.861);
+  } 
+
+  .長文の箱 {
+    height: 890px;
+    margin: 30px 0;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    background: repeating-linear-gradient(-45deg, #f4f2d3 0, #ffecc1 2px, #FFF 4px, #FFF 6px);
+  }
+
+ 
+ .box30c {
+  margin: 2em 0;
+  background: #fffef3;
+  box-shadow: 0 2px 4px rgb(0, 0, 0);
+  width: 300px;
+  height: 150px;
+ }  
+.box30c .boxc-title {
+  font-size: 1.2em;
+  background: #c08404a4;
+  padding: 4px;
+  text-align: center;
+  color: #FFF;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+.box30c p {
+  padding: 15px 20px;
+  margin: 0;
+}
+
+.凡例boxc {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  width: 740px;
+  margin-left: 280px;
+  margin-bottom: 20px;
+ }
+
+ .提示パターンa{
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+ }
+
+ .提示パターンb{
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+ }
+
+ .提示パターンc{
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+ }

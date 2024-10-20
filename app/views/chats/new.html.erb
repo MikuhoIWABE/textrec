@@ -1,0 +1,59 @@
+<%= form_for(@chat, class: 'form-horizontal', role: 'form') do |f| %>
+            <div class="container-sindan">
+                <div class="row">
+                  <div class="Qの箱">  
+                   <div class="bigcol12">
+                    <div class="col-12">
+                        <p>Question1. インプットをメインに進めていきたい</p>
+                    </div>
+                 </div> 
+                 <div class="bigcol"> 
+                    <div class="col-6">
+                        <p><%= f.check_box :question, {multiple: true}, "1", nil %>はい</p>
+                    </div>
+                    <div class="col-6">
+                        <p><%= f.check_box :question, {multiple: true}, "0", nil %>いいえ</p>
+                    </div>
+                 </div> 
+                </div> 
+
+                  <div class="Qの箱">  
+                   <div class="bigcol12">
+                    <div class="col-12">
+                        <p>Question2. 短期集中型で終わらせたい</p>
+                     </div>
+                 </div>
+                 <div class="bigcol"> 
+                    <div class="col-6">
+                        <p><%= f.check_box :question, {multiple: true}, "1", nil %>はい</p>
+                    </div>
+                    <div class="col-6">
+                        <p><%= f.check_box :question, {multiple: true}, "0", nil %>いいえ</p>
+                    </div>
+                 </div> 
+                </div> 
+ 
+
+                  <div class="Qの箱">  
+                   <div class="bigcol12">
+                    <div class="col-12">
+                        <p>Question3. 解説は、直訳よりも意訳が好きだ</p>    
+                    </div>
+                 </div> 
+                 <div class="bigcol"> 
+                    <div class="col-6">
+                        <p><%= f.check_box :question, {multiple: true}, "1", nil %>はい</p>
+                    </div>
+                    <div class="col-6">
+                        <p><%= f.check_box :question, {multiple: true}, "0", nil %>いいえ</p>
+                    </div>
+                 </div> 
+                </div> 
+
+
+                </div>
+            </div>
+              <div class="buttonbox-1">
+                <%= f.submit "診断結果へ！" ,class:"sindanbotan"%>
+              </div>
+<% end %>

@@ -1,0 +1,339 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ * {
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    font-family: 'Sacramento', cursive;
+  }
+  
+  h1 {
+    padding: 0.25em 0.5em;
+    color: #494949;
+    background: transparent;
+    border-left: solid 5px #eef5ec;
+  }
+  
+
+  header {
+    background-color: #004817;
+    height: 100px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header a {
+    color: rgb(255, 255, 255); 
+    text-decoration: none; 
+  }
+  header h1 {
+    color: white;
+    margin-left: 20px;
+  }
+  .header-list {
+    display: flex;
+    align-items: center;
+  }
+  header ul {
+    display: flex;
+  }
+  header li {
+    list-style: none;
+    margin-right: 40px;
+  }
+
+  html {
+    --u:  8vmin;	
+	--c1: #563c16be;
+    --c2: #6f500c;
+    --c3: #563c16be;
+    --c4: #6f500c;
+    --sh: rgba(79, 79, 79, 0.447);
+    --sh2: rgba(160, 160, 160, 0.587);
+    --gp: 50%/ calc(var(--u) * 2) calc(var(--u) * 2);
+    height: 100vh;
+	background:    
+		conic-gradient(from -10deg at 60% 0%, #fff0 0 25%, var(--sh2) 28%, #fff0 31% 100%) var(--gp), 
+		conic-gradient(from -5deg at 0% calc(60% - 1px), #fff0 0, var(--sh) 0%, #fff0 4% 100%) var(--gp),    
+		conic-gradient(from 0deg at 60% calc(60% - 1px), #fff0 0 22%, var(--sh2) 25%, #fff0 25% 100%) var(--gp),     
+		conic-gradient(from 0deg at 60% calc(60% - 1px), var(--c4) 0 25%, #fff0 0 97.5%, var(--sh) 102%) var(--gp),   
+		linear-gradient(180deg, #fff0 0%, var(--sh) 10%, #fff0 10% 50%, var(--sh) 50%, #fff0 60% 101%) var(--gp),   
+		linear-gradient(180deg, #fff0 10%, var(--c3) 10% 50%, #fff0 50% 100%) var(--gp),   
+		linear-gradient(90deg, #fff0 0%, var(--sh) 10%, #fff0 10% 50%, var(--sh) 50%, #fff0 60% 100%) var(--gp),   
+		linear-gradient(90deg, #fff0 10%, var(--c2) 10% 50%, #fff0 50% 100%) var(--gp),   
+		linear-gradient(180deg, #fff0 60%, var(--c1) 60% 100%) var(--gp),   
+		#000000;
+}
+
+.Qの箱{
+  width: 1300px;
+  height: 300px;
+  margin: 30px 0;
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-top: 100px;
+  margin-bottom: 150px;
+  background: repeating-linear-gradient(-45deg, #f4f2d3 0, #ffecc1 2px, #FFF 4px, #ffffff 6px);
+ }
+
+ .blackboard-box{
+  background: #104300;
+  margin: 1em 0;
+  margin-bottom: 0px;
+  padding: 1em 1em 0 1em;
+  border: 8px solid #a60;
+  box-shadow: 2px 2px 4px #999, 2px 2px 2px #020 inset;
+  width: 1000px;
+}
+
+.blackboard-box p{
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  text-shadow: 0px 0px 2px #fff;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.chalk1{
+  display: block;
+  margin-top: 10px;
+  margin-left: 90%;
+  border: solid 3px #fff;
+  width: 15px;
+  height: 6px;
+  border-radius: 3px 2px 0 2px;
+}
+
+.chalk2{
+  display: block;
+  margin-top: -6px;
+  margin-left: calc(90% - 30px);
+  border: solid 3px #ffee58;
+  width: 20px;
+  height: 6px;
+  border-radius: 3px 2px 0 2px;
+}
+
+.tape-box{
+  margin: 1em 0;
+  padding: 1em;
+  background-color: #ffffcc;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.15);
+  margin-top: 60px;
+  width: 1000px;
+}
+
+.tape{
+  display: block;
+  background-color: #ccb;
+  opacity: 0.2;
+  transform: rotate(3deg);
+  width: 40%;
+  height: 35px;
+  margin: -2em auto 0 auto;
+  border-left: 3px dotted rgba(0,0,0,.1);
+  border-right: 3px dotted rgba(0,0,0,.1);
+}
+
+.tape-box p{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+}
+
+
+
+.checkbox-1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5em 2em;
+  border: none;
+}
+
+.checkbox-1 label {
+  display: flex;
+  align-items: center;
+  gap: 0 .5em;
+  position: relative;
+  cursor: pointer;
+}
+
+.checkbox-1 label::before,
+.checkbox-1 label:has(:checked)::after {
+  content: '';
+}
+
+.checkbox-1 label::before {
+  width: 34px;
+  height: 34px;
+  border-radius: 6px;
+  background-color: #e6edf3;
+}
+
+.checkbox-1 label:has(:checked)::before {
+  background-color: #104300;
+}
+
+.checkbox-1 label:has(:checked)::after {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  transform: rotate(45deg);
+  width: 5px;
+  height: 15px;
+  border: solid #fff;
+  border-width: 0 4px 4px 0;
+}
+
+.checkbox-1 input {
+  display: none;
+}
+
+.tweet {
+  background: #f8f0d7;
+  border-left: 5px dotted rgba(0,0,0,.1);
+  box-shadow: 0 0 0 5 #f8f0d7;
+  padding: 1em;
+  margin: 1em 5px;
+  margin-left: 110px;
+  width: 1200px;
+  height: 1050px;
+  display: flex;
+  justify-content: center;
+ }
+
+
+ .intoro {
+  position: relative;
+  background: #feeccb;
+  box-shadow: 0px 0px 0px 5px #feeccb;
+  border: dashed 2px white;
+  padding: 0.2em 0.5em;
+  color: #2a1100;
+  font-size: 32px;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  margin-left: 110px;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+ .intoro:after {
+  position: absolute;
+  content: '';
+  left: -7px;
+  top: -7px;
+  border-width: 0 0 15px 15px;
+  border-style: solid;
+  border-color: #fff #fff #feeccb;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+.写真2の箱{
+  display: flex;
+  justify-content: space-around;
+  width: 1200px;
+  padding-top: 10px;
+ }
+
+ .テープ2の箱{
+  display: flex;
+  justify-content: space-around;
+  width: 1200px;
+ }
+
+ .tape2-box{
+  margin: 1em 0;
+  padding: 1em;
+  background-color: #ffffcc;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.15);
+  padding-top: 10px;
+  width: 360px;
+}
+
+ .tape2{
+  display: block;
+  background-color: #ccb;
+  opacity: 0.2;
+  transform: rotate(3deg);
+  width: 38%;
+  height: 35px;
+  margin: -2em auto 0 auto;
+  border-left: 3px dotted rgba(0,0,0,.1);
+  border-right: 3px dotted rgba(0,0,0,.1);
+ }
+
+ .tape2-box p{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+}
+
+
+ .写真3の箱{
+  display: flex;
+  justify-content: space-around;
+  width: 1200px;
+ }
+
+ .テープ3の箱{
+  display: flex;
+  justify-content: space-around;
+  width: 1200px;
+ }
+
+ .tape3-box{
+  margin: 1em 0;
+  padding: 1em;
+  background-color: #ffffcc;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.15);
+  margin-top: 10px;
+  width: 330px;
+}
+
+ .tape3{
+  display: block;
+  background-color: #ccb;
+  opacity: 0.2;
+  transform: rotate(3deg);
+  width: 35%;
+  height: 35px;
+  margin: -2em auto 0 auto;
+  border-left: 3px dotted rgba(0,0,0,.1);
+  border-right: 3px dotted rgba(0,0,0,.1);
+ }
+
+ .tape3-box p{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+}
+
+ .header-list {
+  font-size: 24px;
+ }

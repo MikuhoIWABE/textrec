@@ -1,0 +1,154 @@
+<!DOCTYPE html> 
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>参考書レコメンダー</title>
+    </head>
+
+ <div class="colorchangeimg_bg">
+
+    <body>
+      <div class="単語の箱">
+        <div class="単語の説明"> 
+        　<h2>〖 英単語 〗</h2>
+        </div>  
+            <div class="単語の説明b">
+        　     <h5>あなたに合った英単語帳を学習進度別に、3段階のレベルから。</h5>
+            </div>
+            <div class="凡例box">            
+              <div class="box30">
+                  <div class="box-title">イントロ</div>
+                  <p>中学～高校1年生の方やまだ英語に苦手意識がある方向け。英検3~準2級相当。</p>
+              </div>
+              <div class="box30">
+                  <div class="box-title">スタンダード</div>
+                  <p>高校2~3年生の方や英単語の勉強をしっかり進めたい方向け。英検準2～2級相当。</p>
+              </div>
+              <div class="box30">
+                  <div class="box-title">マスター</div>
+                  <p>ハイレベルな大学受験をする方や英語を得意科目にしていきたい方向け。英検2級～準1級相当。</p>
+              </div>
+            </div>
+        　  <div class="単語">
+              <div class="start">
+                  <%= link_to new_word_path do %>
+                    <p class="genre-name word">英単語(イントロ)</p>
+                  <% end %>
+              </div>
+
+              <div class="start">
+                  <%= link_to new_language_path do %>
+                    <p class="genre-name language">英単語(スタンダード)</p>
+                  <% end %>
+              </div>
+
+              <div class="start">
+                  <%= link_to new_term_path do %>
+                    <p class="genre-name term">英単語(マスター)</p>
+                  <% end %>
+              </div>
+            </div> 
+     </div> 
+
+      <div class="文法の箱">
+      　<div class="文法の説明"> 
+       　<h2>〖 英文法 〗</h2>
+        </div>
+            <div class="文法の説明b">
+        　     <h5>あなたに合った英文法のアウトプット教材を、診断をもとに8種類の教材の中から提示。</h5>
+            </div> 
+            <div class="文法">
+              <div class="start">
+                <%= link_to new_grammar_path do %>
+                  <p class="genre-name grammar">英文法編</p>
+                <% end %>
+              </div>
+           </div> 
+      </div> 
+            
+
+      <div class="解釈の箱">
+      　<div class="解釈の説明"> 
+        　<h2>〖 英文解釈 〗</h2>
+        </div>
+          <div class="解釈の説明b">
+        　     <h5>あなたに合った英文解釈の参考書を4段階のレベル別でマッチング。</h5>
+            </div>
+            <div class="凡例boxb">            
+              <div class="box30b">
+                  <div class="boxb-title">イントロ</div>
+                  <p>英文解釈の勉強の「はじめの一歩」を担ってくれる教材と出会おう！</p>
+              </div>
+              <div class="box30b">
+                  <div class="boxb-title">スタンダード</div>
+                  <p>共通テストレベルの英文を読むのに必要な和訳力をつけるためにともに歩む教材を選ぼう！</p>
+              </div>
+              <div class="box30b">
+                  <div class="boxb-title">ジャンプアップ</div>
+                  <p>難関大を志望する人は必ず取り組もう！ここまでやれば多くの英文は怖くなくなる！</p>
+              </div>
+              <div class="box30b">
+                  <div class="boxb-title">マスター</div>
+                  <p>最難関レベルの大学受験で必要な和訳力をトレーニングしてくれる、そんな教材をピックアップしました！</p>
+              </div>              
+            </div>   
+         <div class="解釈">
+            <div class="start">
+                <%= link_to new_perfume_path do %>
+                  <p class="genre-name perfume">英文解釈(イントロ)</p>
+                <% end %>
+            </div>
+
+            <div class="start">
+                <%= link_to new_chat_path do %>
+                  <p class="genre-name chat">英文解釈(スタンダード)</p>
+                <% end %>
+            </div>
+
+            <div class="start">
+                <%= link_to new_sentence_path do %>
+                  <p class="genre-name sentence">英文解釈(ハイレベル)</p>
+                <% end %>
+            </div>
+
+            <div class="start">
+                <%= link_to new_interpretation_path do %>
+                  <p class="genre-name interpretation">英文解釈(マスター)</p>
+                <% end %>
+            </div>
+         </div> 
+      </div>          
+
+      <div class="長文の箱">
+       　<div class="長文の説明"> 
+          　<h2>〖 英語長文 〗</h2>
+        </div>
+            <div class="長文の説明b">
+        　     <h5>あなたに合った英語長文の参考書をシリーズ別 / 入試形式別で。</h5>
+            </div> 
+            <div class="凡例boxc">            
+              <div class="box30c">
+                  <div class="boxc-title">一般シリーズ</div>
+                  <p>あなたにフィットした長文の参考書シリーズを7つの質問に対する回答をもとに提示します！</p>
+              </div>
+              <div class="box30c">
+                  <div class="boxc-title">共通テストシリーズ</div>
+                  <p>共通テスト対策を進めたい方用。共通テスト対策との向き合い方が分かるかも…</p>
+              </div>
+            </div>
+         <div class="長文">
+            <div class="start">
+                <%= link_to new_text_path do %>
+                  <p class="genre-name text">英語長文(一般)</p>
+                <% end %>
+            </div>
+
+            <div class="start">
+                <%= link_to new_common_path do %>
+                  <p class="genre-name common">英語長文(共通テスト)</p>
+                <% end %>
+            </div>
+         </div> 
+   　  </div>   
+    </body>
+　</div>
